@@ -11,6 +11,7 @@ sudo apt install -y meson
 sudo apt install -y python3-pyqt5
 sudo apt install -y libopenjp2-7-dev libopenexr25 libavcodec-extra58 libavformat58 libswscale5
 sudo apt install -y libatlas-base-dev
+sudo apt install -y libfmt-dev libdrm-dev
 sudo pip3 install opencv-python==4.4.0.46
 sudo pip3 install jinja2
 sudo pip3 install pyyaml ply
