@@ -2,7 +2,7 @@
 
 START_TIME=`date +%s`
 sudo apt update
-sudo apt install -y python3-pip
+sudo apt install -y python3-pip git
 sudo apt install -y libboost-dev
 sudo apt install -y libgnutls28-dev openssl libtiff5-dev
 sudo apt install -y qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5
