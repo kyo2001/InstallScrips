@@ -6,3 +6,7 @@ curl -s https://raw.githubusercontent.com/kyo2001/InstallScrips/main/picamera2_i
 setup serial servo</br>
 wget https://raw.githubusercontent.com/kyo2001/InstallScrips/main/servo_io_setup.sh</br>
 chmod +x servo_io_setup.sh</br>
+
+setup samba</br>
+wget https://raw.githubusercontent.com/kyo2001/InstallScrips/main/samba_setup.sh</br>
+chmod +x samba_setup.sh</br>
