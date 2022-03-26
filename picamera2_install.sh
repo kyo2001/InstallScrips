@@ -37,7 +37,7 @@ git clone https://github.com/RaspberryPiFoundation/python-v4l2.git
 cd
 git clone https://github.com/raspberrypi/picamera2.git
 sh -c "echo \"export PYTHONPATH=/home/pi/picamera2:/home/pi/libcamera/build/src/py:/home/pi/kmsxx/build/py:/home/pi/python-v4l2\" >> ~/.bashrc"
-
+sudo sh -c "echo 'gpu_mem=256\ndtoverlay=cma,cma-384' >> /boot/config.txt"
 END_TIME=`date +%s`
 
 SS=`expr ${END_TIME} - ${START_TIME}`
@@ -47,3 +47,5 @@ MM=`expr ${SS} / 60`
 SS=`expr ${SS} % 60`
 
 echo "Total Time: ${HH}:${MM}:${SS} (h:m:s)"
+
+sudo reboot
