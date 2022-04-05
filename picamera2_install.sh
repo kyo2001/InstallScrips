@@ -19,6 +19,7 @@ sudo pip3 install pyopengl
 sudo pip3 install pillow
 sudo pip3 install v4l2-fix
 sudo pip3 install numpy
+sudo pip3 install piexif
 
 cd
 git clone --branch picamera2 https://github.com/raspberrypi/libcamera.git
