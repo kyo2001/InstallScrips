@@ -22,7 +22,7 @@ chmod +x servo_io_setup.sh
   
 4.setup samba  
 ```
-wget -O https://raw.githubusercontent.com/kyo2001/InstallScrips/main/samba_setup.sh  
+wget https://raw.githubusercontent.com/kyo2001/InstallScrips/main/samba_setup.sh  
 chmod +x samba_setup.sh  
 ./samba_setup.sh  
 ```
